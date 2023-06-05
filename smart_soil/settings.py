@@ -78,11 +78,11 @@ WSGI_APPLICATION = 'smart_soil.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'smart-soil-db', 
-        'USER': 'postgres',
-        'PASSWORD': 'Loay74123',
-        'HOST': '127.0.0.1', 
-        'PORT': 5432,
+        'NAME': 'x', 
+        'USER': 'x',
+        'PASSWORD': 'x',
+        'HOST': 'x', 
+        'PORT': 'x',
     }
 }
 
