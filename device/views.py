@@ -16,3 +16,4 @@ class ZoneLevel(APIView):
             zone.save()
         data={"created":"success!"}
         return Response(data, status=status.HTTP_200_OK)
+
