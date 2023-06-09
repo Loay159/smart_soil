@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'rest_framework',
     'jazzmin',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -51,6 +52,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
 
 ROOT_URLCONF = 'smart_soil.urls'
 
@@ -81,7 +83,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'smart-soil-db',
         'USER': 'postgres',
-        'PASSWORD': 'Hunter148635',
+        'PASSWORD': 'Loay74123',
         'HOST': '127.0.0.1',
         'PORT': '5432',
     }
