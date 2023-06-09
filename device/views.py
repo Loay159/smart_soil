@@ -5,8 +5,8 @@ from .models import Zone
 
 
 
-class ZoneLevel(APIView):
 
+class ZoneLevel(APIView):
     def post(self, request, **kwargs):
         zones = Zone.objects.all()
 
